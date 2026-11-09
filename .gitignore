@@ -1,0 +1,5 @@
+# Keep local development notes out of the public repository.
+PROJECT_NOTES.md
+
+# Generated release archives.
+dist/

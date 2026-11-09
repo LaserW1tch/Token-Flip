@@ -1,0 +1,19 @@
+<section class="token-flip-art-grid" style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.6rem; width: 100%; overflow: auto;">
+  {{#each choices as |choice index|}}
+    <button
+      type="button"
+      class="token-flip-art-choice {{#if choice.isCurrent}}is-current{{/if}}"
+      data-action="choose-art"
+      data-choice-index="{{index}}"
+      aria-label="{{choice.label}}"
+      title="{{choice.label}}"
+      style="display: flex !important; position: relative !important; flex-direction: column !important; align-items: center !important; gap: 0.3rem !important; min-width: 0 !important; width: 100% !important; max-width: 100% !important; height: auto !important; overflow: hidden !important; padding: 0.45rem !important;"
+    >
+      <span class="token-flip-art-thumbnail" style="display: flex !important; position: relative !important; align-items: center !important; justify-content: center !important; width: 112px !important; min-width: 0 !important; max-width: 100% !important; height: 112px !important; min-height: 112px !important; max-height: 112px !important; overflow: hidden !important;">
+        <img src="{{choice.path}}" alt="{{choice.label}}" width="112" height="112" style="display: block !important; position: static !important; inset: auto !important; width: 112px !important; height: 112px !important; min-width: 0 !important; max-width: 112px !important; min-height: 0 !important; max-height: 112px !important; object-fit: contain !important;">
+      </span>
+      <span style="position: static !important; max-width: 100% !important; overflow-wrap: anywhere !important; text-align: center !important;">{{choice.label}}</span>
+      {{#if choice.isCurrent}}<small>{{localize "TOKEN_FLIP.Settings.Current"}}</small>{{/if}}
+    </button>
+  {{/each}}
+</section>

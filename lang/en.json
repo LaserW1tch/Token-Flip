@@ -1,0 +1,42 @@
+{
+  "TOKEN_FLIP": {
+    "Controls": {
+      "SetAlternate": "Manage Alternate Token Art",
+      "ChooseArt": "Choose Token Art"
+    },
+    "Errors": {
+      "SelectOne": "Select exactly one token first.",
+      "NoActor": "The selected token is not linked to a character.",
+      "NoAlternateSlots": "Set art in at least one alternate slot first.",
+      "NoOriginal": "The original token art could not be found."
+    },
+    "Notifications": {
+      "Saved": "Alternate token art saved for {name}.",
+      "TokenizerFallback": "Tokenizer could not open. The selected image will be saved without editing.",
+      "SlotSaved": "Alternate art saved in slot {slot} for {name}.",
+      "SlotCleared": "Alternate art slot {slot} cleared for {name}.",
+      "Applied": "Token art changed."
+    },
+    "Settings": {
+      "MenuName": "File Picker Permissions",
+      "MenuLabel": "View Permissions Note",
+      "MenuHint": "Learn which Foundry file permissions are needed to choose or upload alternate token art.",
+      "Title": "Token Flip: File Picker Permissions",
+      "Heading": "File picker permissions",
+      "Browse": "Users need the Browse Files permission to choose an image that is already stored in this Foundry world.",
+      "Upload": "Users need the Upload New File permission only if they should upload their own images. The GM can upload images for players instead.",
+      "ActorAccess": "Users also need permission to update the character whose alternate art they are setting.",
+      "Tokenizer": "When Tokenizer is active, selecting an image opens Tokenizer before it is saved. Players need Tokenizer's Trusted Player permission and upload access for Tokenizer's configured output folder.",
+      "ChooseSlot": "Choose an alternate art slot",
+      "SlotLabel": "Alternate slot {slot}",
+      "SlotSet": "art set",
+      "SlotEmpty": "empty",
+      "ChooseImage": "Choose Image",
+      "ClearSlot": "Clear Slot",
+      "Cancel": "Cancel",
+      "NormalArt": "Normal token art",
+      "AlternateArt": "Alternate slot {slot}",
+      "Current": "Current"
+    }
+  }
+}

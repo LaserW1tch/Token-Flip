@@ -1,15 +1,15 @@
 {
   "id": "token-flip",
-  "title": "Token Flip",
+  "title": "LaserW1tch's Token Flip 5e",
   "description": "Give each character up to six alternate token art options and choose between them with previews.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "compatibility": {
     "minimum": "14.367",
     "verified": "14.367"
   },
   "authors": [
     {
-      "name": "Token Flip"
+      "name": "LaserW1tch"
     }
   ],
   "esmodules": [
@@ -27,5 +27,5 @@
   ],
   "url": "https://github.com/LaserW1tch/Token-Flip",
   "manifest": "https://raw.githubusercontent.com/LaserW1tch/Token-Flip/main/module.json",
-  "download": "https://github.com/LaserW1tch/Token-Flip/releases/download/v0.2.0/token-flip-v0.2.0.zip"
+  "download": "https://github.com/LaserW1tch/Token-Flip/releases/download/v0.2.1/token-flip-v0.2.1.zip"
 }

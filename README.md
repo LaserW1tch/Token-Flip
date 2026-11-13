@@ -1,6 +1,6 @@
-# Token Flip
+# LaserW1tch's Token Flip 5e
 
-Token Flip lets you save up to six alternate token images per Actor and choose among them from the Token controls. It works with player characters and NPCs.
+LaserW1tch's Token Flip 5e lets you save up to six alternate token images per Actor and choose among them from the Token controls. It works with player characters and NPCs.
 
 ## Features
 
@@ -8,7 +8,7 @@ Token Flip lets you save up to six alternate token images per Actor and choose a
 - Preview the token's normal art and every populated alternate slot before choosing.
 - Keep the first prototype's `alternateTexture` Actor flag as slot 1 for compatibility.
 - Optionally open VTTA Tokenizer when choosing an image. Without Tokenizer, the chosen image is saved directly.
-- View a permissions note in Configure Settings → Token Flip.
+- View a permissions note in Configure Settings → LaserW1tch's Token Flip 5e.
 
 ## Requirements
 
@@ -21,7 +21,7 @@ In Foundry or The Forge, install using this manifest URL:
 
 `https://raw.githubusercontent.com/LaserW1tch/Token-Flip/main/module.json`
 
-Enable **Token Flip** in the world's Manage Modules screen. On a scene, select one token and use the Token controls **Manage Alternate Token Art** to set its slots, then **Choose Token Art** to preview and apply an image.
+Enable **LaserW1tch's Token Flip 5e** in the world's Manage Modules screen. On a scene, select one token and use the Token controls **Manage Alternate Token Art** to set its slots, then **Choose Token Art** to preview and apply an image.
 
 Users need permission to browse files and update the Actor. They need upload permission only when uploading their own images. When using Tokenizer, its Trusted Player and output-folder permissions also apply. The module's **View Permissions Note** setting summarizes these requirements.
 

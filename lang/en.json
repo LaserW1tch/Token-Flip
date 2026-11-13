@@ -21,7 +21,7 @@
       "MenuName": "File Picker Permissions",
       "MenuLabel": "View Permissions Note",
       "MenuHint": "Learn which Foundry file permissions are needed to choose or upload alternate token art.",
-      "Title": "Token Flip: File Picker Permissions",
+      "Title": "LaserW1tch's Token Flip 5e: File Picker Permissions",
       "Heading": "File picker permissions",
       "Browse": "Users need the Browse Files permission to choose an image that is already stored in this Foundry world.",
       "Upload": "Users need the Upload New File permission only if they should upload their own images. The GM can upload images for players instead.",
